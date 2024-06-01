@@ -73,7 +73,7 @@ export const LivenessCheck: React.FC<LivenessCheckProps> = ({
     if (isMobile) {
       const sendLandscapeWarning = (isLandscapeMatched: boolean) => {
         if (isLandscapeMatched) {
-          send({ type: 'MOBILE_LANDSCAPE_WARNING' });
+          //   send({ type: 'MOBILE_LANDSCAPE_WARNING' });
         }
       };
 
